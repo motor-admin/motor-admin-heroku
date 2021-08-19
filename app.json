@@ -1,0 +1,29 @@
+{
+  "name": "Motor Admin",
+  "description": "No-code Admin panel and Business intelligence",
+  "keywords": [
+    "admin panel",
+    "business intelligence",
+    "analytics",
+    "no-code",
+    "charts",
+    "motor-admin"
+  ],
+  "website": "https://www.getmotoradmin.com/",
+  "repository": "https://github.com/motor-admin/motor-admin",
+  "logo": "https://avatars.githubusercontent.com/u/84705953?s=200",
+  "success_url": "/",
+  "env": {
+    "SECRET_KEY_BASE": {
+      "generator": "secret"
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/motor-admin/motor-admin-buildpack"
+    }
+  ]
+}

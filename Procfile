@@ -1,0 +1,1 @@
+web: motor-admin
