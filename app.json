@@ -1,6 +1,7 @@
 {
   "name": "Motor Admin",
   "description": "No-code Admin panel and Business intelligence",
+  "stack": "heroku-20",
   "keywords": [
     "admin panel",
     "business intelligence",
