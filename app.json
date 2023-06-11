@@ -1,6 +1,7 @@
 {
   "name": "Motor Admin",
   "description": "No-code Admin panel and Business intelligence",
+  "stack": "container",
   "keywords": [
     "admin panel",
     "business intelligence",
@@ -21,9 +22,5 @@
   "addons": [
     "heroku-postgresql"
   ],
-  "buildpacks": [
-    {
-      "url": "https://github.com/motor-admin/motor-admin-buildpack"
-    }
-  ]
+  "image": "motoradmin/motoradmin"
 }
