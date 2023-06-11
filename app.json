@@ -22,5 +22,5 @@
   "addons": [
     "heroku-postgresql"
   ],
-  "image": "motoradmin/motoradmin"
+  "image": "motoradmin/enterprise"
 }
